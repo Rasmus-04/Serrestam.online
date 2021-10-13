@@ -207,3 +207,21 @@ footer{
     border-bottom: 1px grey dashed;
     border-left: 1px gray solid;
 }
+
+@media screen and (max-width: 720px) {
+    .Header-bar-list {
+        display:grid;
+    }
+
+    .Header-bar{
+        height: fit-content;
+    }
+
+    .Header-bar-list a{
+        margin: 4px;
+    }
+
+    .Header-bar-list li:hover ul{
+        display: none;
+    }
+  }
