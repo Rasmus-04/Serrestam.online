@@ -224,4 +224,21 @@ footer{
     .Header-bar-list li:hover ul{
         display: none;
     }
-  }
+}
+
+@media screen and (max-width: 1367px) {
+    aside{
+        margin: 0;
+        float: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #senast-uppgifter a{
+        padding-bottom: 40px;
+    }
+
+    section{
+        width: 100%;
+    }
+}
