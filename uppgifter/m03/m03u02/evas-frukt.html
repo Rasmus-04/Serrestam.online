@@ -9,11 +9,16 @@
     <link href="css/evas-fukt.css"
             rel="stylesheet" 
             type="text/css">
+    
+    <link href="../../../css/main.css"
+            rel="stylesheet" 
+            type="text/css">
+    <script src="../../../JS/main.js"></script>
 </head>
 
 
 <body>
-    <nav class="Header-bar">
+    <nav class="Header-bar" id="responsive_navbar">
         <ul class="Header-bar-list">
             <li><a href="https://serrestam.online">Hem</a></li>
             <li><a href="https://wp.serrestam.online">Wordpress</a></li>
@@ -33,6 +38,10 @@
             </li>
             <li><a href="../../../recensioner/recensioner.html">Recensioner</a></li>
             <li><a href="../../../kontakt/kontakt.html">Kontakt</a></li>
+
+            <a href="javascript:void(0);" id="icon" onclick="toggle_navbar()" style="margin-top: 6px; margin-right: 6px;">
+                <img src="../../../img/menu_icon.png" alt="Menu">
+              </a>
         </ul>
     </nav>
 
