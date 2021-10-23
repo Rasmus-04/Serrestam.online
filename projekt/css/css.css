@@ -1,0 +1,68 @@
+.uppgifter_box h1{
+    text-align: center;
+    color: rgb(101, 230, 155);
+    font-size: 2em;
+}
+
+.uppgifter_box img{
+    margin-left:2%;
+    float:left; 
+}
+
+.uppgifter_box p{
+    color: rgb(255, 255, 255);
+    margin-left: 20vw;
+    margin-right: 15vw;
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 1.3em;
+}
+
+.btn_box{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.btn{
+    border-radius: 1vh;
+    display: block;
+    text-align: center;
+    padding-right: 0.6vw;
+    padding-left: 0.6vw;
+    padding-top: 0.7vh;
+    padding-bottom: 0.7vh;
+    width: fit-content;
+    height: fit-content;
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(46, 43, 43);
+}
+
+.uppgifter_box a:hover{
+    background-color: rgb(114, 108, 108);
+}
+
+.senast-uppgifter{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.senast-uppgifter a{
+    text-decoration: none;
+    color: rgb(51, 46, 46);
+}
+
+.senast-uppgifter a:hover{
+    color: rgb(107, 97, 97);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(15, 82, 138);
+}
+
+a:hover{
+    color: rgb(15, 58, 138);
+}
