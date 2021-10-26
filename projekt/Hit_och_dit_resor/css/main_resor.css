@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,300);
 
+:root{
+    --animation-time: 3s;
+}
+
 body{
     background: white;
     font-family: 'Open Sans', sans-serif;
@@ -80,7 +84,7 @@ nav.meny{
     padding-bottom: 105px;
     margin-left: 120px;
 
-    animation: fly 3s linear infinite;
+    animation: fly_flip var(--animation-time) linear infinite;
 }
 
 .resmal{
@@ -181,7 +185,7 @@ nav a:hover{
     float: left;
 }
 
-@keyframes fly {
+@keyframes fly_flip {
     0%{
         transform: translateX(0);
     }
@@ -197,5 +201,23 @@ nav a:hover{
     100%{
         transform: translateX(300%);
         transform: translateX(0);
+    }
+}
+
+@keyframes fly {
+    0%{
+        transform: translateX(0);
+    }
+
+    40%{
+        transform: translateX(300%);
+    }
+
+    50%{
+        transform: translateX(300%) rotatey(180deg);
+    }
+
+    90%{
+        transform: translateX(0) rotatey(180deg);
     }
 }
