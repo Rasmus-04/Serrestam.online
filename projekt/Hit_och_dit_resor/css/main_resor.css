@@ -79,6 +79,8 @@ nav.meny{
     margin-top: 120px;
     padding-bottom: 105px;
     margin-left: 120px;
+
+    animation: fly 3s linear infinite;
 }
 
 .resmal{
@@ -177,4 +179,23 @@ nav a:hover{
 
 .maps{
     float: left;
+}
+
+@keyframes fly {
+    0%{
+        transform: translateX(0);
+    }
+
+    40%{
+        transform: translateX(300%);
+    }
+
+    50%{
+        transform: translateX(300%) rotatey(180deg);
+    }
+
+    100%{
+        transform: translateX(300%);
+        transform: translateX(0);
+    }
 }
