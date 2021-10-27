@@ -101,7 +101,7 @@ footer{
     background-image: url(../bilder/footer.gif);
     width: 100%;
     min-width: 1010px;
-    height: 600px;
+    height: fit-content;
     background-repeat: no-repeat;
     background-color: #802082;
     background-size: 100%;
@@ -175,7 +175,7 @@ nav a:hover{
     height: 2.5em;
     text-transform: uppercase;
     font-size: 0.8em;
-    margin-left: 32%;
+    margin-left: 23.5%;
 }
 
 #submit:hover{
