@@ -126,12 +126,12 @@ footer{
 .recension-container {
     width : 100%;
     height : 100px;
-    display:table;
+    display: table;
 }
 
 .recension-container div img {
     width : 18vw;
-    display:inline-block;
+    display: inline-block;
 }
 
 .recension-container div{
@@ -256,7 +256,7 @@ footer{
         margin: 0;
         float: none;
         width: 100%;
-        height: fit-content;
+        height: 100%;
     }
 
     #senast-uppgifter a{
