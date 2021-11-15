@@ -3,9 +3,9 @@ function toggle_navbar() {
     var x = document.getElementById("responsive_navbar");
     if (x.className === "Header-bar") {
       x.className += " responsive";
-      document.getElementById("unity-container").style.marginTop = "225px";
+      document.getElementById("unity-container").style.marginTop = "13em";
     } else {
       x.className = "Header-bar";
-      document.getElementById("unity-container").style.marginTop = "50px";
+      document.getElementById("unity-container").style.marginTop = "2em";
     }
   }
