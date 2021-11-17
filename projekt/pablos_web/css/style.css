@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+
+.marker_font{
+    font-family: 'Public Sans', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+h1{
+    float: left;
+    color: rgb(52, 51, 255);
+    margin: 0;
+    width: fit-content;
+    font-size: 2.8em;
+    padding-top: 2.1vh;
+    margin-left: 1.5vw;
+}
+
+nav{
+    height: 100%;   
+}
+
+nav ul{
+    display: flex;
+    float: right;
+    margin-top: 2.5vh;
+}
+
+nav ul li{
+    padding: 5px 13px;
+    list-style-type: none;
+    width: fit-content;
+    margin-right: 40px;
+}
+
+nav ul li:hover{
+    border-radius: 5px;
+    background: rgb(161, 161, 161);
+}
+
+nav ul li a{
+    color: rgb(52, 51, 255);
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 255);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+hr{
+    border-color: rgb(255, 255, 255);
+}
